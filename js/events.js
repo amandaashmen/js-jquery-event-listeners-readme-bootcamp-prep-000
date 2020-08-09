@@ -8,7 +8,7 @@ function getIt() {
 
 function frameIt() {
   $(document).on("load", function(){
-   <img class= "tasty"/>
+   <img class= "tasty" src="https://s3.amazonaws.com/after-school-assets/minion-tongue.jpg"></img>
 });
 }
 
