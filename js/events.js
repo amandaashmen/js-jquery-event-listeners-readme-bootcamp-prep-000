@@ -7,11 +7,24 @@ function getIt() {
 }
 
 function frameIt() {
-  document.on("load", function(){
+  $(document).on("load", function(){
    
 });
 }
 
+function pressIt() {
+  $('input').on("keydown", function(e){
+    if (e.key === "G" || "g") {
+      alert("G pressed");
+    }
+});
+}
+
+function submitIt() {
+  $('h1').on("click", function(){
+   alert("Hey!");
+});
+}
 
 $(document).ready(function(){
 
